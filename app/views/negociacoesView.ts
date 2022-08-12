@@ -1,10 +1,10 @@
 export class NegociacoesView {
 
-    private elemento: HTMLElement | undefined;
-    static template: any;
+    private elemento: HTMLElement;
+    
 
     constructor(selector: string){
-        this.elemento = document.querySelector(selector)
+        this.elemento = document.querySelector(selector);
 
     }
 
